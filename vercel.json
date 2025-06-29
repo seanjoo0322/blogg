@@ -1,8 +1,10 @@
 {
+  "cleanUrls": true,
+  "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/search",
+      "destination": "/search.html"
     }
   ],
   "headers": [
@@ -10,7 +12,7 @@
       "source": "/(.*)",
       "headers": [
         {
-          "key": "Cache-Control",
+          "key": "Cache-Control", 
           "value": "public, max-age=0, must-revalidate"
         }
       ]
