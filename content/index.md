@@ -2,4 +2,4 @@
 title: Welcome to Sean's Space Blog
 ---
 
-Hi
+## Contact Me: hyunseo030322@gmail.com
